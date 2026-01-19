@@ -1,0 +1,11 @@
+{
+  "name": "maven-and-the-border-lord",
+  "version": "1.0.0",
+  "description": "Maven and the Border Lord - illustrated flash fiction by Eleanor Konik",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}
