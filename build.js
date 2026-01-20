@@ -277,12 +277,12 @@ async function build() {
       ${lightboxSlides.join('\n')}
     </div>
     <div class="lightbox-footer">
-      Subscribe to the <a href="https://eleanorkonik.com" target="_blank" rel="noopener">Manuscriptions</a> newsletter on Substack for updates on "Maven & the Border Lord" by Eleanor Konik
+      For more information about how and why this story was written, check out <a href="https://www.eleanorkonik.com/p/toy-problems-make-economics-easier" target="_blank" rel="noopener">Manuscriptions</a> on Substack. For updates to the story itself, there's always <a href="https://pixelfed.social/users/eleanorkonik.atom" target="_blank" rel="noopener">RSS</a>.
     </div>
   </div>
 
   <footer>
-    <p>Subscribe to the <a href="https://eleanorkonik.com" target="_blank" rel="noopener">Manuscriptions</a> newsletter on Substack for updates on "Maven & the Border Lord" by Eleanor Konik</p>
+    <p>For more information about how and why this story was written, check out <a href="https://www.eleanorkonik.com/p/toy-problems-make-economics-easier" target="_blank" rel="noopener">Manuscriptions</a> on Substack. For updates to the story itself, there's always <a href="https://pixelfed.social/users/eleanorkonik.atom" target="_blank" rel="noopener">RSS</a>.</p>
     <p class="copyright">&copy; Eleanor Konik</p>
   </footer>
 
