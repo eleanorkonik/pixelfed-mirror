@@ -120,6 +120,9 @@ function formatCaption(text) {
   // Convert line breaks to <br> tags
   formatted = formatted.replace(/\n/g, '<br>');
 
+  // Remove trailing <br> tags
+  formatted = formatted.replace(/(<br>)+$/, '');
+
   return formatted;
 }
 
@@ -275,9 +278,9 @@ async function build() {
     </div>
     <div class="slides-container">
       ${lightboxSlides.join('\n')}
-    </div>
-    <div class="lightbox-footer">
-      For more information about how and why this story was written, check out <a href="https://www.eleanorkonik.com/p/toy-problems-make-economics-easier" target="_blank" rel="noopener">Manuscriptions</a> on Substack. For updates to the story itself, there's always <a href="https://pixelfed.social/users/eleanorkonik.atom" target="_blank" rel="noopener">RSS</a>.
+      <div class="lightbox-footer">
+        For more information about how and why this story was written, check out <a href="https://www.eleanorkonik.com/p/toy-problems-make-economics-easier" target="_blank" rel="noopener">Manuscriptions</a> on Substack. For updates to the story itself, there's always <a href="https://pixelfed.social/users/eleanorkonik.atom" target="_blank" rel="noopener">RSS</a>.
+      </div>
     </div>
   </div>
 
